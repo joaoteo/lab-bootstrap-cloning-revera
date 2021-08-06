@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.carousel-item {
+background-image: url(./img/overlay.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+nav > div > h1 {
+    display: block;
+    justify-content: left;
+    color: red;
+    
+    }
+
+nav  {
+display: flex;
+align-items: center;
+
+}
+
+.nav-logo-ul {
+justify-content: space-around;
+height: 90px;
+
+}
+
+h1{
+font-size: 35px;
+font-family: inherit;
+font-weight: bold;
+}
+
+#anchor-red {
+    color: red;
+}
